@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(239, 239, 239);
+    background-color: black;
+}
+
+#menu ul, li{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+
+#menu a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.conteudo {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.conteudo1 h1{
+    margin-top: 60px;
+    font-family: sans-serif;
+    font-weight: 600px;
+    margin-bottom: 25px;
+}
+
+.conteudo1 span{
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.conteudo1 p{
+    margin-bottom: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+#btn1{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    width: 140px;
+    height: 45px;
+    border: none;
+    border-radius: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: transform 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55), background-position 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55), box-shadow 500ms linear;
+  background-size:contain;
+  background-position: -250px center;
+  background-repeat: no-repeat;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#btn1:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    cursor: pointer;
+    transform: scale(1.1);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#btn1:active{
+    transform: scale(1);
+  background-position: 500px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.img1 {
+    width: 400px;
+    height: 360px;
+}
+
+.icon1 {
+    width: 30px;
+    margin-top: 48px;
+}
+
+#conteudomeio{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 90px;
+    margin-right:  90px;
+    margin-bottom: 150px;
+}
+
+.one {
+    text-align: center;
+    padding: 40px;
+    box-shadow: 1px 1px 15px 1px rgb(211, 211, 211);
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.one img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+
+.two {
+    text-align: center;
+    padding: 40px;
+    box-shadow: 1px 1px 15px 1px rgb(211, 211, 211);
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.two img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.three{
+    text-align: center;
+    padding: 40px;
+    box-shadow: 1px 1px 15px 1px rgb(211, 211, 211);
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.three img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+#titulo {
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+#sub {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    color: white;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+}
+
+.numbers p{
+    font-size: 20px;
+}
+
+.n1 {
+    text-align: center;
+}
+
+.n2 {
+    text-align: center;
+}
+
+.n3 {
+    text-align: center;
+}
+
+.n4 {
+    text-align: center;
+}
+
+#blocomeio{
+    background-color: black;
+    height: 300px;
+    margin-bottom: 90px;
+}
+
+#results {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+    margin-right: 90px;
+    margin-left: 90px;
+    margin-bottom: 120px;
+}
+
+.imggraphic {
+    width: 500px;
+}
+
+.results1 h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.results1 p {
+    font-size: 18px;
+}
+
+.results1 button{
+    margin-top: 30px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    width: 140px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: transform 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55), background-position 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55), box-shadow 500ms linear;
+    background-size:contain;
+    background-position: -250px center;
+    background-repeat: no-repeat;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+}
+
+.results1 button:hover{
+    transform: scale(1.1);
+  background-position: -60px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#end {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#end img {
+    width: 500px;
+    margin-right: 150px;
+}
+
+#end2 {
+    margin-top: 120px;
+    margin-right: 100px;
+}
+
+#end2 p {
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+#end2 h4 {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+footer{
+    text-align: center;
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+    height: 300px;
+}
+
+footer h1 {
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+footer p{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+footer button{
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55), background-position 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55), box-shadow 500ms linear;
+    background-size:contain;
+    background-position: -250px center;
+    background-repeat: no-repeat;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    }
+
+    footer button:hover{
+        transform: scale(1.1);
+        background-position: -60px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+
